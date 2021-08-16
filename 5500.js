@@ -22,7 +22,7 @@ function create ()
 
     circles = [circle];
 
-    for(var i = 0; i < 320; i++)
+    for(var i = 0; i < 640; i++)
     {
         circle = Phaser.Geom.Circle.Clone(circle);
         circle.radius += 0.5;
